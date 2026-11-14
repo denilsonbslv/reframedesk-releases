@@ -22,11 +22,12 @@ async function loadManifest() {
 
     if (download) {
       downloadEl.href = download;
+      downloadEl.textContent = "Baixar para Windows";
       downloadEl.hidden = false;
       downloadEl.setAttribute("download", "");
     } else if (page) {
       downloadEl.href = page;
-      downloadEl.textContent = "Obter instalador (GitHub Releases)";
+      downloadEl.textContent = "Ver releases (instalador em breve)";
       downloadEl.hidden = false;
       downloadEl.removeAttribute("download");
     }
