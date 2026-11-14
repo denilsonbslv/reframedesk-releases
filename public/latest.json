@@ -1,6 +1,8 @@
-{
-  "version": "1.1.0",
-  "page": "https://github.com/denilsonbslv/reframedesk-releases/releases/latest",
-  "download": "",
-  "notes": "Preenchido pela CI do repo privado a cada tag v*."
+﻿{
+    "version":  "1.1.1",
+    "page":  "https://github.com/denilsonbslv/reframedesk-releases/releases/tag/v1.1.1",
+    "download":  "https://github.com/denilsonbslv/reframedesk-releases/releases/download/v1.1.1/ReframeDesk-Setup-1.1.1.exe",
+    "sha256":  "42889b3e22492e2edfbb30527d8c35d25af458a74deb2b54b06c4852c3064620",
+    "size":  120140153,
+    "notes":  "ReframeDesk v1.1.1 para Windows."
 }
