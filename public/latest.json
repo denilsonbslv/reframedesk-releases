@@ -2,5 +2,5 @@
   "version": "1.1.0",
   "page": "https://github.com/denilsonbslv/reframedesk-releases/releases/latest",
   "download": "",
-  "notes": "Distribuição oficial ReframeDesk para Windows."
+  "notes": "Preenchido pela CI do repo privado a cada tag v*."
 }

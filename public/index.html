@@ -6,8 +6,10 @@
     <title>ReframeDesk — biblioteca GoPro no Windows</title>
     <meta
       name="description"
-      content="ReframeDesk: arquivos, editor e câmera GoPro no PC. Instalador Windows, local-first."
+      content="ReframeDesk: arquivos, editor reframe e câmera GoPro no PC. Instalador Windows, local-first."
     />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="/reframedesk-256.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,10 +22,20 @@
     <div class="bg" aria-hidden="true"></div>
     <main class="wrap">
       <header class="hero">
-        <p class="kicker">Windows · local-first</p>
+        <div class="hero__mark">
+          <img
+            class="hero__icon"
+            src="/reframedesk-256.png"
+            width="88"
+            height="88"
+            alt=""
+            decoding="async"
+          />
+        </div>
         <h1>ReframeDesk</h1>
+        <p class="kicker">Windows · local-first</p>
         <p class="lead">
-          Sua nuvem GoPro, editor reframe e câmera no PC — sem abrir o Quik.
+          Sua nuvem GoPro, editor reframe e câmera no PC — sem abrir o Quik no navegador do dia a dia.
         </p>
       </header>
 
@@ -36,17 +48,21 @@
           <a class="btn btn--ghost" id="releases" href="#" hidden>Notas da release</a>
         </div>
         <p class="hint muted">
-          Requer Chrome ou Edge no PC (o app abre janela dedicada). Conta GoPro para a nuvem.
+          Instalador publicado pelo projeto. Requer Chrome ou Edge no PC (janela dedicada). Conta GoPro para a nuvem.
         </p>
       </section>
 
       <section class="card card--flat">
-        <h2 class="h2">O que não vai aqui</h2>
+        <h2 class="h2">O que não vem aqui</h2>
         <ul class="list">
           <li>Código-fonte (repositório de desenvolvimento é privado).</li>
-          <li>Chaves OAuth — login via extensão GoPro ou configuração local.</li>
+          <li>Chaves OAuth — login via extensão GoPro ou configuração local no PC.</li>
         </ul>
       </section>
+
+      <footer class="foot muted">
+        <p>© ReframeDesk. GoPro® e Quik® são marcas de terceiros.</p>
+      </footer>
     </main>
     <script src="/site.js" defer></script>
   </body>

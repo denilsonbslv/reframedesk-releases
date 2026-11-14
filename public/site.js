@@ -27,7 +27,7 @@ async function loadManifest() {
       downloadEl.setAttribute("download", "");
     } else if (page) {
       downloadEl.href = page;
-      downloadEl.textContent = "Ver releases (instalador em breve)";
+      downloadEl.textContent = "Obter instalador (GitHub Releases)";
       downloadEl.hidden = false;
       downloadEl.removeAttribute("download");
     }
