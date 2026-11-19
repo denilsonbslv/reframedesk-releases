@@ -1,8 +1,8 @@
 ﻿{
-    "version":  "2.0.0.2",
-    "page":  "https://github.com/denilsonbslv/reframedesk-releases/releases/tag/v2.0.0.2",
-    "download":  "https://github.com/denilsonbslv/reframedesk-releases/releases/download/v2.0.0.2/ReframeDesk-Setup-2.0.0.2.exe",
-    "sha256":  "11f2f8f876c5faf1536a8f3f37c92837f4ca59bc488f9e9b93342bfbb30eaf9d",
-    "size":  123070253,
-    "notes":  "ReframeDesk v2.0.0.2 para Windows — Endurecimento de segurança (API, Tauri, Auto-Updater, Firewall e remoção da extensão obsoleta)."
+    "version":  "1.1.1",
+    "page":  "https://github.com/denilsonbslv/reframedesk-releases/releases/tag/v1.1.1",
+    "download":  "https://github.com/denilsonbslv/reframedesk-releases/releases/download/v1.1.1/ReframeDesk-Setup-1.1.1.exe",
+    "sha256":  "42889b3e22492e2edfbb30527d8c35d25af458a74deb2b54b06c4852c3064620",
+    "size":  120140153,
+    "notes":  "ReframeDesk v1.1.1 para Windows."
 }
