@@ -3,13 +3,14 @@ async function loadManifest() {
   const notesEl = document.getElementById("notes");
   const downloadEl = document.getElementById("download");
   const releasesEl = document.getElementById("releases");
+  const metaEl = document.getElementById("file-meta");
 
   try {
     const res = await fetch("/latest.json", { cache: "no-store" });
     if (!res.ok) throw new Error(String(res.status));
     const data = await res.json();
-    const ver = data.version || "—";
-    versionEl.textContent = `v${ver.replace(/^v/i, "")}`;
+    const rawVer = String(data.version || "—").replace(/^v/i, "");
+    versionEl.textContent = `v${rawVer}`;
 
     if (data.notes) {
       notesEl.textContent = data.notes;
@@ -22,7 +23,7 @@ async function loadManifest() {
 
     if (download) {
       downloadEl.href = download;
-      downloadEl.textContent = "Baixar para Windows";
+      downloadEl.textContent = `Baixar v${rawVer} (.exe)`;
       downloadEl.hidden = false;
       downloadEl.setAttribute("download", "");
     } else if (page) {
@@ -36,10 +37,29 @@ async function loadManifest() {
       releasesEl.href = page;
       releasesEl.hidden = false;
     }
+
+    if (metaEl && (data.size || data.sha256)) {
+      const parts = [];
+      if (download) {
+        const filename = String(download).split("/").pop();
+        if (filename) parts.push(filename);
+      }
+      if (typeof data.size === "number" && data.size > 0) {
+        const mb = (data.size / (1024 * 1024)).toFixed(1).replace(".", ",");
+        parts.push(`${mb} MB`);
+      }
+      if (typeof data.sha256 === "string" && data.sha256.trim()) {
+        parts.push(`SHA-256: ${data.sha256.trim()}`);
+      }
+      if (parts.length > 0) {
+        metaEl.textContent = parts.join(" · ");
+        metaEl.hidden = false;
+      }
+    }
   } catch {
     versionEl.textContent = "Indisponível";
     notesEl.textContent =
-      "Não foi possível ler latest.json. Use o link de releases no GitHub quando a CI publicar.";
+      "Não foi possível ler latest.json. Use o link de releases no GitHub.";
   }
 }
 
