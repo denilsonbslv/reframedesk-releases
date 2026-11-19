@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>ReframeDesk — biblioteca GoPro no Windows</title>
+    <title>ReframeDesk — Nuvem GoPro, Editor Reframe e Câmera no Windows</title>
     <meta
       name="description"
-      content="ReframeDesk: arquivos, editor reframe e câmera GoPro no PC. Instalador Windows, local-first."
+      content="ReframeDesk: aplicativo desktop nativo para Windows com biblioteca na nuvem GoPro, editor Reframe, conexão BLE/USB-C com câmera, fila FFmpeg com GPU e privacidade local-first."
     />
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="apple-touch-icon" href="/reframedesk-256.png" />
@@ -28,40 +28,186 @@
             src="/reframedesk-256.png"
             width="88"
             height="88"
-            alt=""
+            alt="Ícone ReframeDesk"
             decoding="async"
           />
         </div>
         <h1>ReframeDesk</h1>
-        <p class="kicker">Windows · local-first</p>
+        <p class="kicker">App Desktop Nativo Windows · Tauri v2 · Local-First</p>
         <p class="lead">
-          Sua nuvem GoPro, editor reframe e câmera no PC — sem abrir o Quik no navegador do dia a dia.
+          Sua biblioteca na nuvem GoPro, editor Reframe, controle de câmera por Bluetooth/USB-C e conversão FFmpeg com aceleração por GPU direto no PC.
         </p>
       </header>
 
-      <section class="card" id="download-card" aria-live="polite">
-        <p class="card__label">Versão</p>
-        <p class="version" id="version">Carregando…</p>
-        <p class="notes muted" id="notes"></p>
-        <div class="actions">
-          <a class="btn btn--primary" id="download" href="#" hidden>Baixar para Windows</a>
-          <a class="btn btn--ghost" id="releases" href="#" hidden>Notas da release</a>
+      <section class="card card--download" id="download-card" aria-live="polite">
+        <div class="download-row">
+          <div>
+            <p class="card__label">Versão pública atual</p>
+            <p class="version" id="version">Carregando…</p>
+            <p class="notes muted" id="notes"></p>
+          </div>
+          <div class="actions">
+            <a class="btn btn--primary" id="download" href="#" hidden>Baixar para Windows</a>
+            <a class="btn btn--ghost" id="releases" href="#" hidden>Notas da release</a>
+          </div>
         </div>
         <p class="hint muted">
-          Instalador publicado pelo projeto. Requer Chrome ou Edge no PC (janela dedicada). Conta GoPro para a nuvem.
+          Aplicativo desktop nativo para Windows 10/11 (64-bit) com WebView2 e FFmpeg integrados. Sem extensões de navegador. Conta ReframeDesk + conta GoPro para nuvem.
         </p>
       </section>
 
+      <section class="section">
+        <h2 class="section__title">Principais Recursos</h2>
+        <div class="grid-features">
+          <article class="card">
+            <div class="card__head">
+              <h3 class="h3">Biblioteca na Nuvem GoPro</h3>
+              <span class="tag">Free + Pro</span>
+            </div>
+            <p class="muted desc">
+              Busque, filtre, visualize com preview direto, recupere itens da lixeira e gere <strong>Álbuns compartilháveis</strong> (<code>gopro.com/v/...</code>) grátis. Preview em Alta Resolução, Proxy e Fonte Bruta no Pro.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card__head">
+              <h3 class="h3">Editor Reframe na Nuvem</h3>
+              <span class="tag tag--accent">Pro</span>
+            </div>
+            <p class="muted desc">
+              Enquadramento interativo com grade e zoom, modos de lente (Nativo, Wide, Linear, SuperView, HyperView e Ultra Grande Angular / Max Lens), cor/luz, <code>edl_sce</code> e exportação em lote para YouTube/Instagram.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card__head">
+              <h3 class="h3">Download &amp; Fila FFmpeg GPU</h3>
+              <span class="tag">Free + Pro</span>
+            </div>
+            <p class="muted desc">
+              Baixe qualquer resolução original da nuvem grátis no Free (sem recodificar). No Pro, converta resolução, FPS, bitrate e codec (H.264/H.265), renderize edições em 4K e use placa de vídeo (NVENC/hardware).
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card__head">
+              <h3 class="h3">Câmera GoPro BLE &amp; USB-C</h3>
+              <span class="tag">Free + Pro</span>
+            </div>
+            <p class="muted desc">
+              Conexão Bluetooth BLE em 1 clique com memória automática de câmera, controle remoto de captura, Wi-Fi local e transferência direta via cabo USB-C a 40–60 MB/s sem desconectar a internet do PC.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card__head">
+              <h3 class="h3">Privacidade &amp; Segurança (LGPD)</h3>
+              <span class="tag tag--green">Zero PII</span>
+            </div>
+            <p class="muted desc">
+              Servidor 100% local em <code>127.0.0.1</code>, login nativo sem extensão, cofre GoPro criptografado no PC (<code>AES-256-GCM</code>) e exclusão de conta em 1 clique. Nunca armazenamos vídeos, senhas GoPro ou dados bancários.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card__head">
+              <h3 class="h3">Updates &amp; Early Access Beta</h3>
+              <span class="tag tag--green">Vitalício ★</span>
+            </div>
+            <p class="muted desc">
+              Atualizador integrado com verificação criptográfica SHA-256 no instalador oficial. Contas <strong>Pro Vitalício</strong> podem ativar o canal antecipado <strong>Early Access (Beta)</strong> antes dos demais planos.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title">Planos e Assinatura</h2>
+        <p class="section__sub muted">
+          Novos computadores elegíveis recebem <strong>7 dias grátis de ReframeDesk Pro</strong> após confirmar o e-mail (sem necessidade de cartão).
+        </p>
+        <div class="grid-plans">
+          <article class="card plan">
+            <div>
+              <span class="tag">Grátis para sempre</span>
+              <h3 class="plan__name">Free</h3>
+              <p class="plan__price">R$ 0</p>
+              <ul class="list">
+                <li>Conectar câmera GoPro (BLE / USB-C / Wi-Fi)</li>
+                <li>Download das resoluções originais da nuvem</li>
+                <li>Preview na qualidade Original (Recomendada)</li>
+                <li>Álbum compartilhável nativo da nuvem</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card plan">
+            <div>
+              <span class="tag">Mais flexível</span>
+              <h3 class="plan__name">Pro Mensal</h3>
+              <p class="plan__price">R$ 14,99 <span class="muted plan__unit">/mês</span></p>
+              <p class="plan__alt muted">Ou Passe Avulso 30 dias: R$ 19,99</p>
+              <ul class="list">
+                <li>Até <strong>2 computadores</strong> vinculados</li>
+                <li>Editor Reframe, Batch Export e Upload avançado</li>
+                <li>FFmpeg (4K, H.265, GPU) e Preview HD/Fonte Bruta</li>
+                <li>Sem fidelidade: cancele quando quiser no app</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card plan plan--accent">
+            <div>
+              <span class="tag tag--accent">Mais popular</span>
+              <h3 class="plan__name">Pro Anual</h3>
+              <p class="plan__price">R$ 149,00 <span class="muted plan__unit">/ano</span></p>
+              <p class="plan__alt muted">~37% de economia · Pix ou até 12x*</p>
+              <ul class="list">
+                <li>Até <strong>3 computadores</strong> vinculados</li>
+                <li>Todos os recursos Pro completos por 365 dias</li>
+                <li>Pix à vista ou parcelamento em até 12x no Asaas*</li>
+                <li>Cobertura em todas as atualizações estáveis</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card plan plan--green">
+            <div>
+              <span class="tag tag--green">★ Acesso Prioritário + Beta</span>
+              <h3 class="plan__name">Pro Vitalício</h3>
+              <p class="plan__price">R$ 249,00 <span class="muted plan__unit">único</span></p>
+              <p class="plan__alt muted">Sem mensalidades · Pix ou até 12x*</p>
+              <ul class="list">
+                <li>Até <strong>4 computadores</strong> vinculados</li>
+                <li>Acesso permanente sem renovação</li>
+                <li>Canal opt-in <strong>Early Access (Beta)</strong></li>
+                <li>Direito preservado por hash anônimo ao recriar conta</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="card card--flat legal-note">
+          <p class="muted">
+            <strong>Transparência e Pagamentos (Asaas Instituição de Pagamento S.A.):</strong> Zero dados bancários no app; Pix à vista sem taxas extras da plataforma (juros de parcelamento/IOF, quando aplicáveis, são exibidos claramente na tela do Asaas antes da confirmação). Respeitamos integralmente o prazo legal de arrependimento de 7 dias corridos na primeira contratação online (Art. 49 do CDC). No plano Mensal Recorrente não há reembolso proporcional após início do ciclo; ao cancelar no app, futuras cobranças são encerradas e você usa os dias já pagos até o fim do período.
+          </p>
+          <p class="muted" style="margin-top: 0.45rem;">
+            <strong>Parcelamento (*):</strong> Em compras parceladas no Asaas, o acesso Pro permanece ativo enquanto as parcelas estiverem em dia; se alguma parcela vencer sem pagamento, a conta retorna automaticamente para o plano Free após <strong>24 horas</strong> do vencimento até a regularização (no <strong>Pro Vitalício*</strong>, o status definitivo sem asterisco é consolidado na quitação da última parcela).
+          </p>
+        </div>
+      </section>
+
       <section class="card card--flat">
-        <h2 class="h2">O que não vem aqui</h2>
+        <h2 class="h2">Transparência e Arquitetura</h2>
         <ul class="list">
-          <li>Código-fonte (repositório de desenvolvimento é privado).</li>
-          <li>Chaves OAuth — login via extensão GoPro ou configuração local no PC.</li>
+          <li><strong>Software proprietário:</strong> código-fonte mantido em repositório privado; esta página distribui exclusivamente o aplicativo oficial assinado/verificado por SHA-256.</li>
+          <li><strong>Zero mídia ou senha GoPro na nossa nuvem:</strong> login GoPro e tokens OAuth rodam localmente em <code>127.0.0.1</code> com cofre <code>AES-256-GCM</code>.</li>
+          <li><strong>Privacidade LGPD por padrão:</strong> contas e dispositivos usam hashes irreversíveis (HMAC-SHA256 / SHA-256), com exclusão completa disponível dentro do app.</li>
         </ul>
       </section>
 
       <footer class="foot muted">
-        <p>© ReframeDesk. GoPro® e Quik® são marcas de terceiros.</p>
+        <p>© 2026 ReframeDesk. Todos os direitos reservados. GoPro® e Quik® são marcas de terceiros sem vínculo com este projeto.</p>
       </footer>
     </main>
     <script src="/site.js" defer></script>
