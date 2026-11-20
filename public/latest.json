@@ -1,8 +1,8 @@
 ﻿{
-    "version":  "2.1.0",
-    "page":  "https://github.com/denilsonbslv/reframedesk-releases/releases/tag/v2.1.0",
-    "download":  "https://github.com/denilsonbslv/reframedesk-releases/releases/download/v2.1.0/ReframeDesk-Setup-2.1.0.exe",
-    "sha256":  "a0f81f085af9786be8175db2d4f30a32fc8b77f658b12f2a858cf8bcda800975",
-    "size":  124711477,
-    "notes":  "ReframeDesk v2.1.0 — App desktop nativo Windows (Tauri v2), contas com 7 dias grátis de Pro, câmera BLE/USB-C, álbuns compartilháveis grátis e auto-updater verificado."
+    "version":  "2.2.0",
+    "page":  "https://github.com/denilsonbslv/reframedesk-releases/releases/tag/v2.2.0",
+    "download":  "https://github.com/denilsonbslv/reframedesk-releases/releases/download/v2.2.0/ReframeDesk-Setup-2.2.0.exe",
+    "sha256":  "92da086806dd8347da80ababced0f956dd1be2eba6d0e9533542b625089bcf11",
+    "size":  123120185,
+    "notes":  "ReframeDesk v2.2.0 — Rotação de vídeos e fotos (0°–270°), figurinhas de telemetria nos 4 cantos com prévia no editor, upload em fila para a nuvem, controle BLE completo (HERO13+) e melhorias de estabilidade."
 }
