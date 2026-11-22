@@ -4,8 +4,8 @@
   <p><strong>Sua nuvem GoPro, editor Reframe, câmera BLE/USB-C e conversão FFmpeg com GPU direto no Windows.</strong></p>
 
   <p>
-    <a href="https://github.com/denilsonbslv/reframedesk-releases/releases/tag/v2.2.1">
-      <img src="https://img.shields.io/badge/Versão-v2.2.1-3d7cff?style=flat-square" alt="Versão v2.2.1" />
+    <a href="https://github.com/denilsonbslv/reframedesk-releases/releases/tag/v2.2.2">
+      <img src="https://img.shields.io/badge/Versão-v2.2.2-3d7cff?style=flat-square" alt="Versão v2.2.2" />
     </a>
     <img src="https://img.shields.io/badge/Plataforma-Windows%2010%2F11%20(64--bit)-12151c?style=flat-square" alt="Windows 10/11 64-bit" />
     <a href="https://reframedesk.vercel.app">
@@ -25,19 +25,19 @@ O **ReframeDesk** é um aplicativo desktop nativo para **Windows** (**Tauri v2 +
 
 ---
 
-## Download Oficial (`v2.2.1`)
+## Download Oficial (`v2.2.2`)
 
 - **Página oficial / Landing page:** **[reframedesk.vercel.app](https://reframedesk.vercel.app)**
-- **Instalador direto para Windows (`117,4 MB`):** **[ReframeDesk-Setup-2.2.1.exe](https://github.com/denilsonbslv/reframedesk-releases/releases/download/v2.2.1/ReframeDesk-Setup-2.2.1.exe)**
-- **Notas da versão:** **[GitHub Releases v2.2.1](https://github.com/denilsonbslv/reframedesk-releases/releases/tag/v2.2.1)**
+- **Instalador direto para Windows (`117,4 MB`):** **[ReframeDesk-Setup-2.2.2.exe](https://github.com/denilsonbslv/reframedesk-releases/releases/download/v2.2.2/ReframeDesk-Setup-2.2.2.exe)**
+- **Notas da versão:** **[GitHub Releases v2.2.2](https://github.com/denilsonbslv/reframedesk-releases/releases/tag/v2.2.2)**
 - **Verificação de integridade (`SHA-256`):**
   ```text
-  e512040ba8aa8e8700dd234fa4a5c8807892c7cea2a3a33f953ede84e293831f
+  b804cdb1ac6580aeaf97fe414a428d7ce427a5be2fa555eea6c4c92348675ff8
   ```
 
 ### Como instalar ou atualizar
 
-1. Baixe e execute **`ReframeDesk-Setup-2.2.1.exe`**.
+1. Baixe e execute **`ReframeDesk-Setup-2.2.2.exe`**.
 2. O aplicativo já inclui **Node.js, FFmpeg/FFprobe e WebView2 nativo** (sem necessidade de extensões de navegador).
 3. **Já usa uma versão anterior?** Basta executar o novo instalador por cima da instalação existente — seus dados e preferências permanecem preservados.
 
@@ -45,18 +45,18 @@ O **ReframeDesk** é um aplicativo desktop nativo para **Windows** (**Tauri v2 +
 
 ## Principais Funcionalidades
 
-- **Biblioteca na Nuvem GoPro:** listagem completa, busca e filtros por tipo (vídeos, fotos, projetos editados, time-lapse, burst e loop), lixeira e criação de **Álbuns compartilháveis (`gopro.com/v/...`) gratuitamente no plano Free**.
+- **Biblioteca na Nuvem GoPro:** listagem completa, busca e filtros por tipo (vídeos, fotos, projetos editados, time-lapse, burst e loop), **indicador animado de transcodificação na nuvem com atualização em segundo plano**, lixeira e criação de **Álbuns compartilháveis (`gopro.com/v/...`) gratuitamente no plano Free**.
 - **Preview Direto da Nuvem:** reprodução direta sem baixar para o PC (`Original · Recomendada` no Free; alternância entre Alta Resolução, Proxy de edição, versão renderizada e Fonte bruta no Pro).
 - **Conexão Rápida com Câmera GoPro:**
   - **Bluetooth BLE em 1 clique** com memória de câmera, **validação de sinal BLE e câmera carregando/desligada**, **painel dinâmico de ajustes HERO13+**, presets rápidos, gestão do cartão SD (`0x41`/`0x42`), leitura real de espaço livre e sinal **Localizar câmera**.
   - **Transferência rápida via cabo USB-C** (40–60 MB/s mantendo o computador conectado à internet via Wi-Fi) ou Wi-Fi direto.
   - Controle de captura adaptado para Vídeo/Foto, marcação de itens já baixados, visualização de mídias da câmera e download livre no Free.
-- **Editor Reframe na Nuvem *(Pro)*:** **layout Studio 2 colunas em desktop**, grade visual interativa, **rotação `0°–270°` em vídeos e fotos**, zoom com proporção travada (`16:9`, `9:16`, `4:3`, `8:7`, `1:1`), lentes **SuperView**, **HyperView**, **Wide** e **Linear** (com suporte a **Ultra Grande Angular / Max Lens**), **figurinhas de telemetria nos 4 cantos com detecção automática de GPS/GPMF e prévia renderizada**, captura de frame na nuvem e **Exportação em lote YouTube/Instagram**.
-- **Upload em Fila para a Nuvem *(Pro)*:** seleção múltipla de fotos JPG originais, vídeos GoPro e cortes trim MP4 com verificação automática de duplicatas na nuvem antes de enviar.
+- **Editor Reframe na Nuvem, Lentes & Corte *(Pro)*:** **layout Studio 2 colunas em desktop**, **projeção óptica de lentes em tempo real (Wide, Linear, SuperView e HyperView)** em WebGL com paridade geométrica FFmpeg e suporte a **Ultra Grande Angular / Max Lens**, **corte de vídeo (`Trim`) na nuvem (com cálculo nativo de `content GUMI` e preservação de telemetria) ou no computador (rápido/preciso com faixas de dados preservadas)**, **rotação `0°–270°` em vídeos e fotos**, grade e zoom com **Desfazer / Refazer**, **figurinhas de telemetria nos 4 cantos com detecção automática de GPS/GPMF e seleção individual livre**, captura de frame na nuvem e **Exportação em lote YouTube/Instagram**.
+- **Upload em Fila para a Nuvem *(Pro)*:** seleção múltipla de fotos JPG originais, vídeos GoPro e cortes trim MP4 com cálculo nativo de GUMI, verificação automática de duplicatas na nuvem antes de enviar e retomada segura por mutex atômico.
 - **Download & Fila Local FFmpeg com GPU:**
   - **No Free:** escolha livremente qualquer versão/resolução pronta da nuvem e baixe sem recodificar (Resolução, FPS e Codec originais + Taxa de bits Padrão).
-  - **No Pro:** re-codificação H.264 / H.265, alteração de resolução (até 4K), FPS, bitrate, renderização em **4K direto da fonte bruta** (incluindo rotação), download direto de **fotos editadas JPG** e **aceleração por placa de vídeo (NVENC / hardware)**.
-- **Auto-Updater Seguro com Progresso ao Vivo:** verificação automática via `public/latest.json` com download em tempo real dentro do app e dupla checagem rigorosa de **SHA-256** antes da execução, além do canal opcional **Early Access (Beta)** exclusivo para assinantes **Pro Vitalício**.
+  - **No Pro:** re-codificação H.264 / H.265, alteração de resolução (até 4K), FPS, bitrate, renderização em **4K direto da fonte bruta** (incluindo projeção de lente e rotação `0°–270°`), download direto de **fotos editadas em PNG (4:4:4) ou JPG** e **aceleração por placa de vídeo (NVENC / hardware)**.
+- **Auto-Updater Seguro e Endurecimento `v2.2.2`:** verificação automática via `public/latest.json` com download em tempo real, validação estrita de URL oficial e abertura protegida (`rundll32.exe`), dupla checagem rigorosa de **SHA-256** antes da execução, enforço server-side em todas as rotas Pro e canal opcional **Early Access (Beta)** exclusivo para assinantes **Pro Vitalício**.
 
 ---
 
@@ -72,7 +72,7 @@ Novos computadores elegíveis recebem **7 dias grátis de ReframeDesk Pro** apó
 | **Pro Anual** | **R\$ 149,00/ano** | 3 PCs | Todos os recursos Pro por 365 dias · Pix à vista ou parcelamento em até 12x no Asaas\* |
 | **Pro Vitalício** | **R\$ 249,00** único | **4 PCs** | Acesso permanente sem mensalidades · **★ Canal Early Access (Beta)** · Direito preservado caso recrie a conta com o mesmo e-mail |
 
-> **Disponibilidade atual do Pro:** A versão pública `v2.2.1` já funciona integralmente no modo **Free** (e com **7 dias grátis de avaliação Pro** em novos PCs). A ativação comercial dos pagamentos recorrentes/avulsos está atualmente em homologação (Asaas Sandbox) antes da abertura definitiva para produção.
+> **Disponibilidade atual do Pro:** A versão pública `v2.2.2` já funciona integralmente no modo **Free** (e com **7 dias grátis de avaliação Pro** em novos PCs). A ativação comercial dos pagamentos recorrentes/avulsos está atualmente em homologação (Asaas Sandbox) antes da abertura definitiva para produção.
 
 <details>
 <summary><strong>Diretrizes de pagamento, parcelamento e CDC (Asaas Instituição de Pagamento S.A.)</strong></summary>

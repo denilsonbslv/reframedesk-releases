@@ -1,8 +1,8 @@
 ﻿{
-    "version":  "2.2.1",
-    "page":  "https://github.com/denilsonbslv/reframedesk-releases/releases/tag/v2.2.1",
-    "download":  "https://github.com/denilsonbslv/reframedesk-releases/releases/download/v2.2.1/ReframeDesk-Setup-2.2.1.exe",
-    "sha256":  "e512040ba8aa8e8700dd234fa4a5c8807892c7cea2a3a33f953ede84e293831f",
-    "size":  123121944,
-    "notes":  "ReframeDesk v2.2.1 — Layout Studio 2 colunas no editor Reframe, detecção automática de telemetria GPS/GPMF nas figurinhas, validação de sinal Bluetooth (câmera carregando/desligada), correção de export JPG no FFmpeg 9 e auto-updater com download em progresso ao vivo."
+    "version":  "2.2.2",
+    "page":  "https://github.com/denilsonbslv/reframedesk-releases/releases/tag/v2.2.2",
+    "download":  "https://github.com/denilsonbslv/reframedesk-releases/releases/download/v2.2.2/ReframeDesk-Setup-2.2.2.exe",
+    "sha256":  "b804cdb1ac6580aeaf97fe414a428d7ce427a5be2fa555eea6c4c92348675ff8",
+    "size":  123154136,
+    "notes":  "ReframeDesk v2.2.2 — Corte de vídeo (nuvem com GUMI nativo e local com preservação de telemetria GPMF), projeção óptica de lentes em tempo real (Wide, Linear, SuperView e HyperView) em paridade WebGL/FFmpeg, indicador animado de transcodificação na nuvem e endurecimento completo de segurança."
 }
