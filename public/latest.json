@@ -1,8 +1,8 @@
 ﻿{
-    "version":  "2.2.2",
-    "page":  "https://github.com/denilsonbslv/reframedesk-releases/releases/tag/v2.2.2",
-    "download":  "https://github.com/denilsonbslv/reframedesk-releases/releases/download/v2.2.2/ReframeDesk-Setup-2.2.2.exe",
-    "sha256":  "b804cdb1ac6580aeaf97fe414a428d7ce427a5be2fa555eea6c4c92348675ff8",
-    "size":  123154136,
-    "notes":  "ReframeDesk v2.2.2 — Corte de vídeo (nuvem com GUMI nativo e local com preservação de telemetria GPMF), projeção óptica de lentes em tempo real (Wide, Linear, SuperView e HyperView) em paridade WebGL/FFmpeg, indicador animado de transcodificação na nuvem e endurecimento completo de segurança."
+  "version": "2.3.0",
+  "page": "https://github.com/denilsonbslv/reframedesk-releases/releases/tag/v2.3.0",
+  "download": "https://github.com/denilsonbslv/reframedesk-releases/releases/download/v2.3.0/ReframeDesk-Setup-2.3.0.exe",
+  "sha256": "6e6b673b2d1b4ef5edac2ad41389b2523f0da987f273f10bf5d017119819ebb1",
+  "size": 123184202,
+  "notes": "ReframeDesk v2.3.0 — Fonte de Áudio (Bluetooth / Câmera estéreo / USB / 360°) com prévia em tempo real, Ajustar Automático de cor e luz para vídeo e foto (compatível com a nuvem GoPro), correções de vídeo vertical (7:8) com SuperView/HyperView, atalhos YouTube/Instagram inteligentes e conformidade LGPD/acessibilidade."
 }
