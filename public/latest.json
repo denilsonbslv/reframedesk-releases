@@ -1,8 +1,8 @@
 ﻿{
-  "version": "2.3.0",
-  "page": "https://github.com/denilsonbslv/reframedesk-releases/releases/tag/v2.3.0",
-  "download": "https://github.com/denilsonbslv/reframedesk-releases/releases/download/v2.3.0/ReframeDesk-Setup-2.3.0.exe",
-  "sha256": "6e6b673b2d1b4ef5edac2ad41389b2523f0da987f273f10bf5d017119819ebb1",
-  "size": 123184202,
-  "notes": "ReframeDesk v2.3.0 — Fonte de Áudio (Bluetooth / Câmera estéreo / USB / 360°) com prévia em tempo real, Ajustar Automático de cor e luz para vídeo e foto (compatível com a nuvem GoPro), correções de vídeo vertical (7:8) com SuperView/HyperView, atalhos YouTube/Instagram inteligentes e conformidade LGPD/acessibilidade."
+  "version": "2.3.1",
+  "page": "https://github.com/denilsonbslv/reframedesk-releases/releases/tag/v2.3.1",
+  "download": "https://github.com/denilsonbslv/reframedesk-releases/releases/download/v2.3.1/ReframeDesk-Setup-2.3.1.exe",
+  "sha256": "780589cf0cebb624a631552c34f0baa6eee73209cd94b4f7cdad77bb77dbb766",
+  "size": 123153524,
+  "notes": "ReframeDesk v2.3.1 — Melhorias no Auto-Updater (botão de download no modal e timeout de 30s), Exportar/Salvar habilitados apenas com alterações, botão Automático em largura total, proteção contra reenvio duplicado no corte de vídeo, ordenação de figurinhas e correção do spinner de carregamento."
 }
