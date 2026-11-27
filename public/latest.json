@@ -1,16 +1,16 @@
 ﻿{
-    "version":  "3.0.0",
-    "page":  "https://github.com/denilsonbslv/reframedesk-releases/releases/tag/v2.3.1",
-    "download":  "https://github.com/denilsonbslv/reframedesk-releases/releases/download/v2.3.1/ReframeDesk-Setup-2.3.1.exe",
-    "sha256":  "6919481a1fae1e41ff45f3fca21238bc8f2fec998253a08921ec4a28da9bc2d3",
-    "size":  123153524,
-    "notes":  "ReframeDesk v3.0.0 Creator Suite (Estável): Editor Local offline com GPU, Cor Pro + LUTs .cube, Áudio Pro 1-clique, Estúdio de Miniaturas 4K, Presets Personalizados, Compressão Inteligente, Batch Export 5x, Offload Inteligente de Cartão SD, Detector de Highlights, Montagem Rápida (/studio) e Central Global de Atividades.",
-    "beta":  {
-                 "version":  "3.0.0",
-                 "page":  "https://github.com/denilsonbslv/reframedesk-releases/releases/tag/v2.5.0-beta.1",
-                 "download":  "https://github.com/denilsonbslv/reframedesk-releases/releases/download/v2.5.0-beta.1/ReframeDesk-Setup-2.5.0-beta.1.exe",
-                 "sha256":  "6919481a1fae1e41ff45f3fca21238bc8f2fec998253a08921ec4a28da9bc2d3",
-                 "size":  131105063,
-                 "notes":  "ReframeDesk v3.0.0 Creator Suite (Estável): Editor Local offline com GPU, Cor Pro + LUTs .cube, Áudio Pro 1-clique, Estúdio de Miniaturas 4K, Presets Personalizados, Compressão Inteligente, Batch Export 5x, Offload Inteligente de Cartão SD, Detector de Highlights, Montagem Rápida (/studio) e Central Global de Atividades."
-             }
+  "version": "3.0.0",
+  "page": "https://github.com/denilsonbslv/reframedesk-releases/releases/tag/v3.0.0",
+  "download": "https://github.com/denilsonbslv/reframedesk-releases/releases/download/v3.0.0/ReframeDesk-Setup-3.0.0.exe",
+  "sha256": "6919481a1fae1e41ff45f3fca21238bc8f2fec998253a08921ec4a28da9bc2d3",
+  "size": 129514380,
+  "notes": "ReframeDesk v3.0.0 Creator Suite (Estável): Editor Local offline com GPU, Cor Pro + LUTs .cube, Áudio Pro 1-clique, Estúdio de Miniaturas 4K, Presets Personalizados, Compressão Inteligente, Batch Export 5x, Offload Inteligente de Cartão SD, Detector de Highlights, Montagem Rápida (/studio) e Central Global de Atividades.",
+  "beta": {
+    "version": "3.0.0",
+    "page": "https://github.com/denilsonbslv/reframedesk-releases/releases/tag/v3.0.0",
+    "download": "https://github.com/denilsonbslv/reframedesk-releases/releases/download/v3.0.0/ReframeDesk-Setup-3.0.0.exe",
+    "sha256": "6919481a1fae1e41ff45f3fca21238bc8f2fec998253a08921ec4a28da9bc2d3",
+    "size": 129514380,
+    "notes": "ReframeDesk v3.0.0 Creator Suite (Estável): Editor Local offline com GPU, Cor Pro + LUTs .cube, Áudio Pro 1-clique, Estúdio de Miniaturas 4K, Presets Personalizados, Compressão Inteligente, Batch Export 5x, Offload Inteligente de Cartão SD, Detector de Highlights, Montagem Rápida (/studio) e Central Global de Atividades."
+  }
 }
