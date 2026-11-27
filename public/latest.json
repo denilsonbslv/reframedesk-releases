@@ -6,11 +6,11 @@
   "size": 123153524,
   "notes": "ReframeDesk v2.3.1 — Melhorias no Auto-Updater (botão de download no modal e timeout de 30s), Exportar/Salvar habilitados apenas com alterações, botão Automático em largura total, proteção contra reenvio duplicado no corte de vídeo, ordenação de figurinhas e correção do spinner de carregamento.",
   "beta": {
-    "version": "2.4.0-beta.1",
-    "page": "https://github.com/denilsonbslv/reframedesk-releases/releases/tag/v2.4.0-beta.1",
-    "download": "https://github.com/denilsonbslv/reframedesk-releases/releases/download/v2.4.0-beta.1/ReframeDesk-Setup-2.4.0-beta.1.exe",
-    "sha256": "d6a475eddca2a81566ff5ec7e6e6e34dc90b8412264741d3ccb37944f9655582",
-    "size": 123183807,
-    "notes": "ReframeDesk v2.4.0-beta.1 (Early Access — Fase 1): Biblioteca Local / Cartão SD e Editor Local (com preservação de metadados GoPro e telemetria GPMF), Presets Personalizados com sincronização na nuvem (Pro), Batch Export 5× paralelo, Compressão Inteligente (WhatsApp 16 MB, Discord, Reels, YouTube 4K) e verificação de upload 20× mais rápida."
+    "version": "2.4.0-beta.2",
+    "page": "https://github.com/denilsonbslv/reframedesk-releases/releases/tag/v2.4.0-beta.2",
+    "download": "https://github.com/denilsonbslv/reframedesk-releases/releases/download/v2.4.0-beta.2/ReframeDesk-Setup-2.4.0-beta.2.exe",
+    "sha256": "80d3dc16aa0c548f01283474440269d04a1f54a186594365b11912d827505d4d",
+    "size": 124810115,
+    "notes": "ReframeDesk v2.4.0-beta.2 (Early Access — Fase 1): Biblioteca Local / Cartão SD e Editor Local (com preservação de metadados GoPro e telemetria GPMF), Presets Personalizados com sincronização na nuvem (Pro), Batch Export 5× paralelo, Compressão Inteligente (WhatsApp 16 MB, Discord, Reels, YouTube 4K) e verificação de upload 20× mais rápida."
   }
 }
